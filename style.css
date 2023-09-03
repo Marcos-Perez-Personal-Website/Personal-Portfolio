@@ -1,4 +1,21 @@
+/* this is a style for all pages */
+
 body {
 
     background-color: chocolate;
 }
+
+h1 {
+    text-align: left;
+    font-size: 50px;
+}
+
+p {
+
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
