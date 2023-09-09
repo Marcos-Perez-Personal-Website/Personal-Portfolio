@@ -1,5 +1,6 @@
 /* styles for this page only */
 
+
 h1,h2 {
     text-align: center;
 }
@@ -16,6 +17,29 @@ p {
 section {
     display: block;
 }
+
+
+/* footer height size is not the same as header height size, need to fix
+footer on about and portfolio is sticky because before it was blocking content
+
+*/
+
+footer {
+    display: block;
+    background-color: white;
+    box-sizing: border-box;
+    position: sticky;
+    height: 70px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+    
+    }
+
+
 
 
 .first-project {
