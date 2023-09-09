@@ -2,9 +2,9 @@
 
 
 h2 {
+    font-size: 30px;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bolder;
 }
 
 
@@ -12,7 +12,7 @@ p {
     text-align: center;
     padding-left: 20px;
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: monospace;
    
 }
 
