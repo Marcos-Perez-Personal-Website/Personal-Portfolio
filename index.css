@@ -1,28 +1,45 @@
 /* styles for index page only */
 
-h1, h2 {
 
-color: black;
-text-align: center;
+h2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
 }
-
 
 
 p {
-    text-align: left;
+    text-align: center;
     padding-left: 20px;
     font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    
 }
 
-/* ALL a tags on this single page will be gold */
+/* footer height size is not the same as header height size, need to fix
+footer on index page is set to fixed because no scrolling is required
+*/
+footer {
+    display: block;
+    background-color: white;
+    box-sizing: border-box;
+    position: fixed;
+    height: 70px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    }
 
 
 .quote {
 
     text-align: center;
     font-size: 30px;
-    padding-top: 50px;
+    padding-top: 20px;
+    font-family: monospace;
+
 }
 
 .github-link {
@@ -30,8 +47,3 @@ p {
     padding-left: 20px;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    padding-bottom: 20px;
-}
