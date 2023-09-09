@@ -1,11 +1,26 @@
 /* this is a style for all pages */
 
+
+header {
+   background-color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 20px;
+   
+}
+
 body {
 
-   
+   margin: 0%;
    background-color: teal;
 }
 
+
+.nav-bar {
+
+   padding-right: 20px;
+}
 
 
 

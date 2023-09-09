@@ -2,16 +2,11 @@
 
 h1, h2 {
 
-color: gold;
+color: black;
 text-align: center;
 }
 
-.nav-bar {
 
-    text-align: right;
-    
-    padding-right: 20px;
-}
 
 p {
     text-align: left;
@@ -21,9 +16,7 @@ p {
 }
 
 /* ALL a tags on this single page will be gold */
-a {
-    color: gold;
-}
+
 
 .quote {
 
