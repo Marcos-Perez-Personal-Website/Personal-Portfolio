@@ -1,5 +1,22 @@
 /* this is a style for all pages */
 
+* {
+   box-sizing: border-box;
+}
+
+
+/* this main class is what makes the pages padding and spacing look professional.
+This selector is also why all of the content in each section is centered. When I get more advanced I can
+start spacing in a different way thats not only centered. */
+main {
+   min-height: 100vh;
+   padding: 64px 24px 96px;
+   text-align: center;
+   
+}
+
+
+
 
 header {
    background-color: white;
@@ -17,9 +34,17 @@ body {
    
 }
 
+h2 {
+   font-size: 40px;
+   text-align: center;
+   font-family: monospace;
 
-.nav-bar {
 
+}
+
+
+nav {
+   font-size: 30px;
    padding-right: 20px;
 }
 
