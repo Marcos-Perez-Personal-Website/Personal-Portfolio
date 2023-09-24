@@ -52,8 +52,20 @@ nav {
 
 a {
    color: black;
+   
+
+}
+
+nav a:hover {
+  background-color: teal;
 }
 
 
+
+nav a {
+   
+   transition: background-color 1.5s ease-out;
+
+}
 
 
