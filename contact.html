@@ -5,18 +5,14 @@
     <!-- style for ALL pages -->
     <link rel="stylesheet" href="./style.css">
     <!-- style for THIS page -->
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./contact.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-
+    <title>Contact</title>
 </head>
-
-
 
 <body>
 
-    <!-- NAV Bar -->
     <header>
 
         <h1>Marcos Perez</h1>
@@ -37,33 +33,45 @@
     </header>
 
 
+    <main>
+
+        <div class="contact">
+            <h2>Contact Me</h2>
+
+            <form action="submit.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+
+
+                <button type="submit">Submit</button>
+
+        </div>
 
 
 
-    <!-- Content Section -->
+        </form>
 
-    <div class="content-section">
-        <h2>Fullstack Web Developer</h2>
-        <p>I'm excited to be on the path to become a Full Stack Web Developer. <br> I'm interested in creating
-            applications
-            that
-            range from all sizes <br> and look forward to working in a team enviroment, wether big or small.</p>
-        <p class="quote"><strong>"It's not about how hard you hit, its about how hard you can get hit and keep moving
-                forward"
-                <br>
-                <br>- Rocky Balboa
 
-        </p>
-    </div>
+
+
+    </main>
+
+
+
+
+
     <!-- Footer Section -->
     <footer>
 
         <a class="github-link" href="https://github.com/MarcosPerez16">Github</a>
     </footer>
 
-
 </body>
-
-<script src="./javascript.js"></script>
 
 </html>
