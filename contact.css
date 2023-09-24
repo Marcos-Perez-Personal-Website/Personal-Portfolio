@@ -1,0 +1,35 @@
+
+
+
+
+
+
+
+footer {
+    display: block;
+    background-color:rgba(245, 245, 220, 1);
+    box-sizing: border-box;
+    position:sticky;
+    height: 70px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+    
+    }
+
+
+
+    .contact {
+
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgba(245, 245, 220, 1);
+    border-radius: 5px;
+    text-align: center;
+
+    }
+
+    
