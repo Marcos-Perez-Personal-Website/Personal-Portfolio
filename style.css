@@ -13,13 +13,20 @@ main {
    padding: 64px 24px 96px;
    text-align: center;
    
+  
+}
+
+/* color is always subject to change */
+
+html {
+   background: rgb(0, 128, 128);
 }
 
 
-
+/* color is always subject to change */
 
 header {
-   background-color: white;
+   background-color:  rgba(245, 245, 220, 1);
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -30,7 +37,10 @@ header {
 body {
 
    margin: 0%;
-   background-color: teal;
+
+   
+   
+  
    
 }
 

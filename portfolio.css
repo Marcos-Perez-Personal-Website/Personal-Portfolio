@@ -29,7 +29,7 @@ footer on about and portfolio is sticky because before it was blocking content
 
 footer {
     display: block;
-    background-color: white;
+    background-color:  rgba(245, 245, 220, 1);
     box-sizing: border-box;
     position: sticky;
     height: 70px;
