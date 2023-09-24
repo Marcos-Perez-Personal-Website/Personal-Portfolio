@@ -5,6 +5,7 @@
 
 section {
     border-top: 2px solid black;
+   
 }
 
 
@@ -35,7 +36,7 @@ footer on about and portfolio is sticky because before it was blocking content
 
 footer {
     display: block;
-    background-color:  rgba(245, 245, 220, 1);
+    background-color:rgba(245, 245, 220, 1);
     box-sizing: border-box;
     position: sticky;
     height: 70px;
@@ -48,11 +49,30 @@ footer {
     
     }
 
-    
-
-  
-
-
+    /*  I will most likely end up changing this style for each div becasue I dont like how it currently looks
+    I need to change each div so that the music picture is on the left of the paragraph
+    then the video game picture is on the right of the paragraph
+.music-div {
  
+    background-color: rgba(245, 245, 220, 1);
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.videogame-div {
    
-   
+        background-color: rgba(245, 245, 220, 1);
+        padding-top: 4px;
+        padding-bottom: 4px;
+}
+
+.guitar-div {
+
+    
+        background-color: rgba(245, 245, 220, 1);
+        padding-top: 4px;
+        padding-bottom: 4px;
+
+}
+
+*/

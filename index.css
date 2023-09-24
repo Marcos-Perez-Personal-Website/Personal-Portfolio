@@ -32,7 +32,6 @@ footer {
 /* colors are always subject to change */
     .content-section {
         margin: 100px;
-        background: transparent;
         box-shadow: 5px 5px 15px 15px  rgba(0, 0, 0, .8);
         padding-top: 5px;
         padding-bottom: 5px;
