@@ -5,6 +5,10 @@
 
 section {
     border-top: 2px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    
    
 }
 
@@ -49,21 +53,45 @@ footer {
     
     }
 
-    /*  I will most likely end up changing this style for each div becasue I dont like how it currently looks
-    I need to change each div so that the music picture is on the left of the paragraph
-    then the video game picture is on the right of the paragraph
+     /*overall still not satisfied with the layout still needs alot of work!  */
+
+
 .music-div {
  
     background-color: rgba(245, 245, 220, 1);
     padding-top: 4px;
     padding-bottom: 4px;
+    overflow: auto;
 }
 
-.videogame-div {
+.festival-img {
+        float: left;
+        padding-left: 20px;
+        padding-bottom: 10px;
+
+}
+
    
-        background-color: rgba(245, 245, 220, 1);
+ .videogame-div {
+   
+        
         padding-top: 4px;
         padding-bottom: 4px;
+        overflow: auto;
+        
+}
+
+.video-img {
+
+    float: right;
+    padding-bottom: 20px;
+   
+    
+}
+
+.videoparagraph {
+
+    margin-left: 18%;
 }
 
 .guitar-div {
@@ -72,7 +100,13 @@ footer {
         background-color: rgba(245, 245, 220, 1);
         padding-top: 4px;
         padding-bottom: 4px;
+        overflow: auto;
 
 }
 
-*/
+.guitar-img {
+
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
