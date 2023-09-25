@@ -24,12 +24,32 @@ footer {
 
     .contact {
 
-    margin: 0 auto;
-    padding: 20px;
+    margin: 200px auto;
     background-color:rgba(245, 245, 220, 1);
     border-radius: 5px;
     text-align: center;
+    width: 100%;
+    padding: 20px;
 
     }
 
+   .name {
+   padding: 10px;
+   }
     
+   .email {
+
+padding: 10px;
+   }
+
+   .message {
+
+    padding: 10px;
+    padding-right: 10px;
+   }
+
+   .submit-button {
+
+    padding-top: 10px;
+    margin-right: 45px;
+   }
